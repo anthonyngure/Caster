@@ -582,7 +582,7 @@ public class Caster implements CasterPlayer.OnMediaLoadedListener {
     @Override
     public void onMediaLoaded() {
         if (onCastSessionStateChanged != null) onCastSessionStateChanged.onCastSessionBegan();
-        startExpandedControlsActivity();
+        // startExpandedControlsActivity();
     }
 
     private void startExpandedControlsActivity() {
